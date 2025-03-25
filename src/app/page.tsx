@@ -122,9 +122,4 @@ const cardListStyle: React.CSSProperties = {
   //padding: "20px",
 };
 
-const cardStyle: React.CSSProperties = {
-  marginTop: "60px",
-  backgroundColor: "#e8f5e9",
-};
-
 export default TodoList;
