@@ -3,8 +3,6 @@ import "./globals.css";
 import { Inter } from "next/font/google";
 import Header from "./header";
 import Footer from "./footer";
-import About from "./about";
-import { Contact, Menu } from "lucide-react";
 
 const inter = Inter({ subsets: ["latin"] });
 
