@@ -95,7 +95,9 @@ const TodoList = () => {
   ];
 
   const scrollToTop = () => {
-    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+    document
+      .getElementById("mrhsview")
+      ?.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   const scrollToSection = (
@@ -141,6 +143,7 @@ const TodoList = () => {
         </div>
       </header>
       <div
+        id="mrhsview"
         style={scrollContainerStyle}
         className="bg-gradient-to-br from-green-300 via-green-200 to-green-300"
       >
@@ -403,6 +406,7 @@ const TodoList = () => {
             </p>
           </footer> */}
         </div>
+        <div className="h-20"></div>
       </div>
     </>
   );
