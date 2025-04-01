@@ -19,10 +19,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Header />
-        {/* <About />
-        <Menu />
-        <Contact /> */}
         <main className="min-h-screen" style={mainStyle}>
           {children}
         </main>

@@ -20,7 +20,10 @@ const CardComponent: React.FC<CardProps> = ({
   imageUrl,
 }) => {
   return (
-    <Card style={cardStyle}>
+    <Card
+      style={cardStyle}
+      className="bg-gradient-to-r from-white to-lime-100 text-green-900 p-2 rounded-3xl shadow-2xl hover:shadow-green-500/50 transition-all duration-300"
+    >
       <CardHeader>
         <img src={imageUrl} alt={title} style={imageStyle} />
         <CardTitle>{title}</CardTitle>
