@@ -420,9 +420,6 @@ const scrollContainerStyle: React.CSSProperties = {
   width: "110%",
 };
 
-const rightAlignStyle: React.CSSProperties = {
-  float: "right",
-};
 const cardListStyle: React.CSSProperties = {
   display: "flex",
   flexWrap: "wrap",
